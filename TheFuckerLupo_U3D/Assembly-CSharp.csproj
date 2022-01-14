@@ -208,6 +208,7 @@
     <Compile Include="Assets\Fungus\Thirdparty\LeanTween\LeanAudio.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Execution\InstructionFieldUsage.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Tree\Statements\ScopeBlockStatement.cs" />
+    <Compile Include="Assets\Scripts\Joysticks\AnularBotones.cs" />
     <Compile Include="Assets\Fungus\Scripts\EventHandlers\Drag\DragStarted.cs" />
     <Compile Include="Assets\Fungus\Scripts\Signals\BlockSignals.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Modules\MoonSharpModuleAttribute.cs" />
@@ -491,6 +492,7 @@
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Interpreter\Tree\Loop.cs" />
     <Compile Include="Assets\Fungus\Scripts\Components\EventHandler.cs" />
     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Thirdparty\MoonSharp\Debugger\DebuggerLogic\EmptyDebugSession.cs" />
+    <Compile Include="Assets\Scripts\Jugador\Resucitar.cs" />
     <Compile Include="Assets\Fungus\Scripts\Utils\PortraitUtils.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\DestroyOnLoad.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\Vector3\Vector3Fields.cs" />
@@ -739,8 +741,6 @@
     <Compile Include="Assets\Fungus\Scripts\EventHandlers\Drag\DragExited.cs" />
     <Compile Include="Assets\Fungus\Scripts\EventHandlers\ObjectClicked.cs" />
     <Compile Include="Assets\Fungus\Scripts\Commands\Priority\FungusPriorityIncrease.cs" />
-    <Compile Include="Assets\Scripts\Jugador\Resucitar.cs" />
-    <Compile Include="Assets\Scripts\Joysticks\AnularBotones.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fungus\Thirdparty\TextMeshPro\Resources\Shaders\TMPro.cginc" />

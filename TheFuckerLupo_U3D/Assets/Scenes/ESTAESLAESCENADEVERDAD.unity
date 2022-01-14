@@ -6523,6 +6523,7 @@ GameObject:
   - component: {fileID: 819813497}
   - component: {fileID: 819813464}
   - component: {fileID: 819813465}
+  - component: {fileID: 819813511}
   m_Layer: 0
   m_Name: ControladorFuente
   m_TagString: Untagged
@@ -6919,7 +6920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 284.72614, y: -43.752842}
+  scrollPos: {x: 433.07782, y: -84.41218}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 391
@@ -6930,8 +6931,10 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 819813460}
+  selectedCommands:
+  - {fileID: 819813511}
   variables:
   - {fileID: 819813451}
   - {fileID: 819813489}
@@ -7260,6 +7263,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 819813511}
   - {fileID: 819813458}
   - {fileID: 819813463}
   - {fileID: 819813482}
@@ -9863,6 +9867,23 @@ MonoBehaviour:
   - {fileID: 819813498}
   - {fileID: 819813497}
   suppressAllAutoSelections: 0
+--- !u!114 &819813511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819813447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  indentLevel: 0
+  targetObject: {fileID: 3725687919151734486}
+  methodName: Bailar
+  delay: 0
 --- !u!1 &821164014
 GameObject:
   m_ObjectHideFlags: 0
@@ -19058,7 +19079,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 533.81726
     y: 125.80851
-    width: 115.90908
+    width: 117.272675
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19682,7 +19703,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 329.7533
     y: 75.70213
-    width: 119.31818
+    width: 119.09086
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19721,11 +19742,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -82.04364, y: 14.891941}
+  scrollPos: {x: 359.42285, y: 160.71687}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8800001
+  zoom: 0.5500004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -20012,7 +20033,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 173.28528
     y: 108.51074
-    width: 138.63635
+    width: 137.27266
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20434,7 +20455,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 403.07837
     y: 229.77556
-    width: 144.31818
+    width: 142.7272
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24479,7 +24500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1626034356}
+  selectedFlowchart: {fileID: 819813456}
 --- !u!4 &2121171394
 Transform:
   m_ObjectHideFlags: 1
@@ -25159,6 +25180,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4330101091530936227, guid: 25516d40f68cb8347a3e7e95aa5ceb23, type: 3}
+      propertyPath: jugador
+      value: 
+      objectReference: {fileID: 3725687919151734481}
+    - target: {fileID: 4330101091530936227, guid: 25516d40f68cb8347a3e7e95aa5ceb23, type: 3}
       propertyPath: velocidad
       value: 60
       objectReference: {fileID: 0}
@@ -25212,15 +25237,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4330101091530936237, guid: 25516d40f68cb8347a3e7e95aa5ceb23, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330101091530936237, guid: 25516d40f68cb8347a3e7e95aa5ceb23, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330101091530936237, guid: 25516d40f68cb8347a3e7e95aa5ceb23, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4330101091530936237, guid: 25516d40f68cb8347a3e7e95aa5ceb23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

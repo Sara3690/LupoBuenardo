@@ -13,6 +13,8 @@ public class MovimientoJugador : MonoBehaviour
 
     public bool pausarMovimientoLupo = false;
 
+    public Transform jugador;
+
     void Update()
     {
         
@@ -65,6 +67,14 @@ public class MovimientoJugador : MonoBehaviour
 
             caminarLupo.SetFloat("esCaminar", velocidadPaso);
         }
+
         
+        
+    }
+
+    public void Bailar()
+    {
+        jugador.position = new Vector3(13, 0, 37.7f);
+        jugador.rotation = Quaternion.Euler(0, 270, 0);
     }
 }
