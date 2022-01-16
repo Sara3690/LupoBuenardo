@@ -74,7 +74,7 @@ public class MovimientoJugador : MonoBehaviour
 
     public void Bailar()
     {
-        jugador.position = new Vector3(13, 0, 37.7f);
-        jugador.rotation = Quaternion.Euler(0, 270, 0);
+        jugador.transform.localPosition = new Vector3(13, 0.01388788f, 37.29003f);
+        jugador.transform.localRotation = Quaternion.Euler(0, 270, 0);
     }
 }
