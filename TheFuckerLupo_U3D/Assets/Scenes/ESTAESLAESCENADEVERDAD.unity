@@ -6524,6 +6524,7 @@ GameObject:
   - component: {fileID: 819813464}
   - component: {fileID: 819813465}
   - component: {fileID: 819813511}
+  - component: {fileID: 819813512}
   m_Layer: 0
   m_Name: ControladorFuente
   m_TagString: Untagged
@@ -6934,7 +6935,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 819813460}
   selectedCommands:
-  - {fileID: 819813511}
+  - {fileID: 819813458}
   variables:
   - {fileID: 819813451}
   - {fileID: 819813489}
@@ -7212,10 +7213,10 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 894229957}
+    gameObjectVal: {fileID: 1605065815}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 1
+    booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &819813459
 MonoBehaviour:
@@ -7265,6 +7266,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 819813511}
   - {fileID: 819813458}
+  - {fileID: 819813512}
   - {fileID: 819813463}
   - {fileID: 819813482}
   - {fileID: 819813481}
@@ -9884,6 +9886,27 @@ MonoBehaviour:
   targetObject: {fileID: 3725687919151734486}
   methodName: Bailar
   delay: 0
+--- !u!114 &819813512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819813447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 894229957}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &821164014
 GameObject:
   m_ObjectHideFlags: 0
@@ -12530,7 +12553,7 @@ MonoBehaviour:
   baile1: {fileID: 1132618583}
   baile2: {fileID: 1259469803}
   baile3: {fileID: 1895559317}
-  baileLupo: {fileID: 0}
+  baileLupo: {fileID: 155298911}
   misionAgua: {fileID: 819813456}
 --- !u!1 &1133874753
 GameObject:
@@ -19753,11 +19776,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1626034355}
-  - {fileID: 1626034347}
-  - {fileID: 1626034358}
-  - {fileID: 1626034367}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1626034351}
@@ -24500,7 +24519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1626034356}
+  selectedFlowchart: {fileID: 819813456}
 --- !u!4 &2121171394
 Transform:
   m_ObjectHideFlags: 1
