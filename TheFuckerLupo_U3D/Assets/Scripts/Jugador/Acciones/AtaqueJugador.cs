@@ -54,12 +54,21 @@ public class AtaqueJugador : MonoBehaviour
                
             }
 
-            
+            if (misionRatas.GetIntegerVariable("QuitarTexto")==0)
+            {
+                vuelveMolinero.SetActive(true);
+            }
+
+            if (misionRatas.GetIntegerVariable("QuitarTexto") == 1)
+            {
+                vuelveMolinero.SetActive(false);
+            }
 
             misionRatas.SetBooleanVariable("RatasMuertas", true);
 
             contarRatas.SetActive(false);
-            vuelveMolinero.SetActive(true);
+            
+
         }
     }
     public void AtaquePala()

@@ -15,6 +15,8 @@ public class MovimientoJugador : MonoBehaviour
 
     public Transform jugador;
 
+    [SerializeField] Animator baileLupo;
+
     void Update()
     {
         
@@ -76,5 +78,12 @@ public class MovimientoJugador : MonoBehaviour
     {
         jugador.transform.localPosition = new Vector3(13, 0.01388788f, 37.29003f);
         jugador.transform.localRotation = Quaternion.Euler(0, 270, 0);
+    }
+
+    public void FinAnimacion()
+    {
+        baileLupo.SetBool("Baile3", false);
+        baileLupo.SetBool("Baile1", false);
+        baileLupo.SetBool("Baile2", false);
     }
 }

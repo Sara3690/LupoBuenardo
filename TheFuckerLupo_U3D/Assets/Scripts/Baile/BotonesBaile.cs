@@ -13,8 +13,6 @@ public class BotonesBaile : MonoBehaviour
 
     [SerializeField] Flowchart misionAgua;
 
-    
-
     public void Animacion1()
     {
         baileLupo.SetBool("Baile1", true);
@@ -43,7 +41,7 @@ public class BotonesBaile : MonoBehaviour
         baile3.SetActive(false);
 
         misionAgua.SetBooleanVariable("Baile3", true);
-
-
     }
+
+    
 }
