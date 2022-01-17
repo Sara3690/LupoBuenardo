@@ -30,6 +30,8 @@ public class MovimientoBrasas : MonoBehaviour
             Vector3 direction = jugador.transform.position;
 
             transform.LookAt(direction);
+            Vector3 direccionLookAt = this.transform.rotation.eulerAngles;
+            this.transform.rotation = Quaternion.Euler(0, direccionLookAt.y, 0);
 
             movBrasas.SetBool("Correr", true);
             movBrasas.SetBool("Parar", false);
@@ -41,7 +43,7 @@ public class MovimientoBrasas : MonoBehaviour
             movBrasas.SetBool("Correr", false);
 
         }
-        if (Vector3.Distance(transform.position, jugador.transform.position) <= 4)
+        if (Vector3.Distance(transform.position, jugador.transform.position) <= 5)
         {
             movBrasas.SetBool("Correr", false);
             movBrasas.SetBool("Parar", true);
