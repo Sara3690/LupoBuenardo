@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/TheFuckerLupo_U3D/Library/**
-/TheFuckerLupo_U3D/Temp/**
-/TheFuckerLupo_U3D/[Oo]bj/**
-/TheFuckerLupo_U3D/[Bb]uild/**
-/TheFuckerLupo_U3D/[Bb]uilds/**
-/TheFuckerLupo_U3D/[Ll]ogs/**
-/TheFuckerLupo_U3D/[Uu]ser[Ss]ettings/**
+Library/ 
+Temp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -68,6 +68,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
-/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/[Aa]ssets/[Ss]treamingAssets/aa/*
-TheFuckerLupo_U3D/Library/Artifacts/00/0040ac1f2385cb6907c0e888d15f214a
+[Aa]ssets/[Ss]treamingAssets/aa.meta
+[Aa]ssets/[Ss]treamingAssets/aa/* 
