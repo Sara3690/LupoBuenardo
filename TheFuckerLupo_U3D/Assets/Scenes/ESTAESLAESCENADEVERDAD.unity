@@ -4196,11 +4196,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3695496090833432280, guid: 94c6a181b85e0f245b3cb8ee7472e916, type: 3}
   m_PrefabInstance: {fileID: 3695496091022773823}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &236819762 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8783410023977560486, guid: a9274e2022fb1e643934be1d494d01c4, type: 3}
-  m_PrefabInstance: {fileID: 8783410023877590164}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &243168305
 GameObject:
   m_ObjectHideFlags: 0
@@ -6559,7 +6554,6 @@ GameObject:
   - component: {fileID: 819813488}
   - component: {fileID: 819813487}
   - component: {fileID: 819813486}
-  - component: {fileID: 819813491}
   - component: {fileID: 819813485}
   - component: {fileID: 819813484}
   - component: {fileID: 819813483}
@@ -6586,6 +6580,7 @@ GameObject:
   - component: {fileID: 819813511}
   - component: {fileID: 819813512}
   - component: {fileID: 819813505}
+  - component: {fileID: 819813491}
   m_Layer: 0
   m_Name: ControladorFuente
   m_TagString: Untagged
@@ -6996,7 +6991,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 819813510}
   selectedCommands:
-  - {fileID: 819813505}
+  - {fileID: 819813491}
   variables:
   - {fileID: 819813451}
   - {fileID: 819813489}
@@ -8621,7 +8616,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 819813491}
   - {fileID: 819813484}
   - {fileID: 819813483}
   - {fileID: 819813495}
@@ -8630,21 +8624,29 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &819813491
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819813447}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: ee63e642958494f1ebed8116ae4b1103, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 32
+  itemId: 58
   indentLevel: 0
-  targetObject: {fileID: 236819762}
-  methodName: llenacionFuente
-  delay: 0
+  _animator:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 1879603439}
+  _parameterName:
+    stringRef: {fileID: 0}
+    stringVal: subirAgua
+  value:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  animatorOLD: {fileID: 0}
+  parameterNameOLD: 
 --- !u!114 &819813492
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9569,7 +9571,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &819813505
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9916,6 +9918,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 819813505}
+  - {fileID: 819813491}
   - {fileID: 819813504}
   - {fileID: 819813506}
   - {fileID: 819813507}
@@ -9945,7 +9948,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &819813512
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11456,6 +11459,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944621454}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &957657808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+  m_PrefabInstance: {fileID: 1714211637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &960849684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1074592869337890297, guid: 94c6a181b85e0f245b3cb8ee7472e916, type: 3}
@@ -23522,6 +23530,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697431898}
   m_CullTransparentMesh: 1
+--- !u!1001 &1714211637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1879603438}
+    m_Modifications:
+    - target: {fileID: 3284061905720248953, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_Name
+      value: water (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.90000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.90000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.90000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.016180001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000005960463
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3650202633355274957, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9751437b9a8f28b46b69f81d4a249423, type: 3}
 --- !u!1 &1735947612
 GameObject:
   m_ObjectHideFlags: 0
@@ -23945,6 +24022,57 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2288027945591592432, guid: 45db9adbcf5b5e742acc4f7407ed9f2d, type: 3}
   m_PrefabInstance: {fileID: 2288027945140442428}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1879603437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1879603438}
+  - component: {fileID: 1879603439}
+  m_Layer: 0
+  m_Name: ControladorAgua
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1879603438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879603437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00072}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 957657808}
+  m_Father: {fileID: 1703857790157344966}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1879603439
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879603437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 287225ce8ce316d4dac12097a3c26add, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1895457789 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3695496090281735416, guid: 94c6a181b85e0f245b3cb8ee7472e916, type: 3}
@@ -24872,7 +25000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 589567224}
+  selectedFlowchart: {fileID: 819813456}
 --- !u!4 &2121171394
 Transform:
   m_ObjectHideFlags: 1
