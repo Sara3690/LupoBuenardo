@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1667,6 +1667,7 @@ GameObject:
   - component: {fileID: 97620306}
   - component: {fileID: 97620316}
   - component: {fileID: 97620315}
+  - component: {fileID: 97620317}
   m_Layer: 0
   m_Name: MisionPan
   m_TagString: Untagged
@@ -2001,6 +2002,7 @@ MonoBehaviour:
   - {fileID: 97620277}
   - {fileID: 97620298}
   - {fileID: 97620300}
+  - {fileID: 97620317}
   - {fileID: 97620278}
   - {fileID: 97620295}
   - {fileID: 97620290}
@@ -2034,8 +2036,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 97620289}
-  selectedCommands: []
+  - {fileID: 97620280}
+  selectedCommands:
+  - {fileID: 97620317}
   variables:
   - {fileID: 97620279}
   - {fileID: 97620288}
@@ -3985,6 +3988,27 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &97620317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97620275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 2
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1345815068}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &115062589
 GameObject:
   m_ObjectHideFlags: 0
@@ -5109,10 +5133,10 @@ RectTransform:
   m_Father: {fileID: 1605065816}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 116.9, y: -63.176}
-  m_SizeDelta: {x: 212.1308, y: 52.173492}
+  m_AnchorMin: {x: 0, y: 0.21076947}
+  m_AnchorMax: {x: 0, y: 0.38300002}
+  m_AnchoredPosition: {x: 116.899994, y: -0.6760254}
+  m_SizeDelta: {x: 212.1308, y: -0.82650757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &417680428
 MonoBehaviour:
@@ -18471,6 +18495,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345476840}
   m_CullTransparentMesh: 1
+--- !u!1 &1345815068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1345815069}
+  - component: {fileID: 1345815071}
+  - component: {fileID: 1345815070}
+  m_Layer: 5
+  m_Name: HablarMama
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1345815069
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345815068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1605065816}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 88.4, y: -48.6}
+  m_SizeDelta: {x: 133.8851, y: 39.785095}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1345815070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345815068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Habla con tu madre.
+--- !u!222 &1345815071
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345815068}
+  m_CullTransparentMesh: 1
 --- !u!1 &1354444637
 GameObject:
   m_ObjectHideFlags: 0
@@ -19208,6 +19311,7 @@ RectTransform:
   - {fileID: 417680427}
   - {fileID: 1748963890}
   - {fileID: 1026962191}
+  - {fileID: 1345815069}
   m_Father: {fileID: 477784665}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23896,6 +24000,7 @@ GameObject:
   - component: {fileID: 1656382322}
   - component: {fileID: 1656382321}
   - component: {fileID: 1656382325}
+  - component: {fileID: 1656382312}
   m_Layer: 0
   m_Name: Introduccion
   m_TagString: Untagged
@@ -23993,7 +24098,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1656382318}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1656382316}
   variables: []
   description: 
   stepPause: 0
@@ -24033,6 +24139,27 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1656382312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656382306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1748963889}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1656382313
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -24116,8 +24243,8 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 0
-  waitForClick: 1
+  fadeWhenDone: 1
+  waitForClick: 0
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
@@ -24167,9 +24294,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1656382322}
   - {fileID: 1656382316}
   - {fileID: 1656382324}
-  - {fileID: 1656382322}
+  - {fileID: 1656382312}
   - {fileID: 1656382321}
   suppressAllAutoSelections: 0
 --- !u!114 &1656382319
@@ -24255,10 +24383,10 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1748963889}
+    gameObjectVal: {fileID: 1345815068}
   activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 0
+    booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1656382323
 MonoBehaviour:
@@ -24676,10 +24804,10 @@ RectTransform:
   m_Father: {fileID: 1605065816}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -87.9, y: -51.800003}
-  m_SizeDelta: {x: 167.2402, y: 52.175995}
+  m_AnchorMin: {x: 1, y: 0.2574224}
+  m_AnchorMax: {x: 1, y: 0.4204611}
+  m_AnchoredPosition: {x: -100.5, y: 0.19999695}
+  m_SizeDelta: {x: 168.2402, y: 0.17599487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1748963891
 MonoBehaviour:
@@ -26305,7 +26433,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118337348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.83, z: 0}
+  m_LocalPosition: {x: 0, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 819813448}
@@ -26403,7 +26531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 819813456}
+  selectedFlowchart: {fileID: 1656382310}
 --- !u!4 &2121171394
 Transform:
   m_ObjectHideFlags: 1
