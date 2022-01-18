@@ -80,10 +80,18 @@ public class AtaqueJugador : MonoBehaviour
 
             ataquePala.SetTrigger("esAtaque");
 
-         activarCollider.SetTrigger("muele");
+            activarCollider.SetBool("muele",true);
+            Invoke("CancelarAtaque", 1.2f);
 
-         misionRatas.SetBooleanVariable("CargarDialogo", false);
+            misionRatas.SetBooleanVariable("CargarDialogo", false);
         }
+
+    }
+
+    void CancelarAtaque()
+    {
+        activarCollider.SetBool("muele", false);
+
 
     }
 
