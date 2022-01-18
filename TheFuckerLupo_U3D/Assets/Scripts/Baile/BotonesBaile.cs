@@ -13,34 +13,44 @@ public class BotonesBaile : MonoBehaviour
 
     [SerializeField] Flowchart misionAgua;
 
-    public void Animacion1()
+   public void Animacion1()
     {
-        baileLupo.SetBool("Baile1", true);
 
-        baile1.SetActive(false);
+        /*baileLupo.SetTrigger("Bailesito1");
+        misionAgua.SetBooleanVariable("Baile1", true);*/
+        StartCoroutine(Bailamiento1());
 
-        misionAgua.SetBooleanVariable("Baile1", true);
     }
 
     public void Animacion2()
     {
-        baileLupo.SetBool("Baile2", true);
-        baileLupo.SetBool("Baile1", false);
-
-        baile2.SetActive(false);
+      
+        baileLupo.SetTrigger("Bailesito2");
 
         misionAgua.SetBooleanVariable("Baile2", true);
     }
 
     public void Animacion3()
     {
-        baileLupo.SetBool("Baile3", true);
-        baileLupo.SetBool("Baile1", false);
-        baileLupo.SetBool("Baile2", false);
 
-        baile3.SetActive(false);
-
+        baileLupo.SetTrigger("Bailesito3");
         misionAgua.SetBooleanVariable("Baile3", true);
+    }
+
+    private void Start()
+    {
+        //StartCoroutine (Bailamiento1());
+    }
+    IEnumerator Bailamiento1 ()
+    {
+        Debug.Log("puto");
+        baileLupo.SetTrigger("Bailesito1");
+        misionAgua.SetBooleanVariable("Baile1", true);
+        yield return new WaitForSeconds(4.2f);
+
+        baile1.SetActive(false);
+        baile2.SetActive(true);
+
     }
 
     
