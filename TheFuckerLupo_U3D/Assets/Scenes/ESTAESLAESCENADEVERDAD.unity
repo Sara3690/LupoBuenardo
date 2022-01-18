@@ -12416,7 +12416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jugador: {fileID: 3725687919151734486}
-  alturaX: -0.1
+  alturaX: 0
   alturaY: 12
   alturaZ: -12
   casaLupo: {fileID: 987721077}

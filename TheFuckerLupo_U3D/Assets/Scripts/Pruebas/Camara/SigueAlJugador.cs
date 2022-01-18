@@ -30,32 +30,47 @@ public class SigueAlJugador : MonoBehaviour
         if (casaLupo.cambioZoom == 0)
         {
             Camera.main.fieldOfView = 34f;
+
+            alturaY = 10.47f;
+            alturaZ = -14.9f;
             
         }
 
         if (casaLupo.cambioZoom == 1)
         {
             Camera.main.fieldOfView = 50f;
+
+            alturaY = 12f;
+            alturaZ = -12f;
+
         }
 
         if (panaderias.cambioZoom == 2)
         {
             Camera.main.fieldOfView = 34f;
+            alturaY = 10.47f;
+            alturaZ = -14.9f;
         }
 
         if (panaderias.cambioZoom == 3)
         {
             Camera.main.fieldOfView = 50f;
+            alturaY = 12f;
+            alturaZ = -12f;
         }
 
         if (molinos.cambioZoom == 4)
         {
             Camera.main.fieldOfView = 34f;
+            alturaY = 10.47f;
+            alturaZ = -14.9f;
         }
 
         if (molinos.cambioZoom == 5)
         {
             Camera.main.fieldOfView = 50f;
+            alturaY = 12f;
+            alturaZ = -12f;
         }
 
     }
