@@ -59,9 +59,11 @@ public class BotonesBaile : MonoBehaviour
         
         baileLupo.SetTrigger("Bailesito2");
         misionAgua.SetBooleanVariable("Baile2", true);
+        baile2.SetActive(false);
+
         yield return new WaitForSeconds(4.7f);
 
-        baile2.SetActive(false);
+       
         baile3.SetActive(true);
 
     }
@@ -71,10 +73,9 @@ public class BotonesBaile : MonoBehaviour
 
         baileLupo.SetTrigger("Bailesito3");
         misionAgua.SetBooleanVariable("Baile3", true);
-        yield return new WaitForSeconds(4.7f);
-
-        
         baile3.SetActive(false);
+        yield return new WaitForSeconds(4.7f);
+        
 
     }
 
