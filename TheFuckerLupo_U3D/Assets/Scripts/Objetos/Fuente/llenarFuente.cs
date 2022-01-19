@@ -19,11 +19,6 @@ public class llenarFuente : MonoBehaviour
         }
         else
         {
-            
-            baileLupo.SetBool("Baile1", false);
-            baileLupo.SetBool("Baile2", false);
-            baileLupo.SetBool("Baile3", false);
-
             misionAgua.SetBooleanVariable("Repetir", true);
         }
     }
