@@ -43,7 +43,7 @@ public class MirarLupo : MonoBehaviour
             Vector3 direccionInicial = this.transform.rotation.eulerAngles;
             this.transform.LookAt(direccion);
             Vector3 direccionLookAt = this.transform.rotation.eulerAngles;
-            this.transform.rotation = Quaternion.Euler(direccionInicial.x, direccionLookAt.y, direccionInicial.z);
+            this.transform.rotation = Quaternion.Euler(direccionInicial.x, direccionLookAt.y,0);
 
             //Direccion vista Lupo
             Vector3 direccionLupo = this.transform.position;

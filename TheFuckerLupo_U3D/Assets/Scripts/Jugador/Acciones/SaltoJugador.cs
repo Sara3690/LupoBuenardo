@@ -48,15 +48,20 @@ public class SaltoJugador : MonoBehaviour
 
             saltoLupo.SetBool("noCaida", true);
 
-            //moverLupo.enabled = false;
+          
         }
        
+    }
+
+    void arregloCaida()
+    {
+        saltoLupo.SetBool("noCaida", false);
+
     }
     public void Jump()
     {
         isGrounded = false;
         rbd.AddForce(0, fuerzaSalto, 0);
-        saltoLupo.SetBool("noCaida", false);
     }
 
     public void OnCollisionEnter(UnityEngine.Collision other)
@@ -90,5 +95,6 @@ public class SaltoJugador : MonoBehaviour
 
             botonAccion.image.sprite = Resources.Load<Sprite>("BotonOriginal");
         
+
     }
 }
