@@ -8,9 +8,12 @@ public class VidaDamageJugador : MonoBehaviour
 
     public GameObject botonResucitar;
 
+    public Animator lupoDanyo;
     public void RestarVida(int cantidad)
     {
         vida -= cantidad;
+        lupoDanyo.SetTrigger("danyo");
+
         if (vida == 0)
         {
             SoundSystem.instance.PlayMuerteLupo();
