@@ -8,9 +8,12 @@ public class VidaDamageEnemigo : MonoBehaviour
 
     public AtaqueJugador matarRatas;
 
+    public Animator color;
+
     public void RestarVida(int cantidadDanyoEnemigo)
     {
         vida -= cantidadDanyoEnemigo;
+        color.SetTrigger("pegao");
 
         SoundSystem.instance.PlayGolpe();
 

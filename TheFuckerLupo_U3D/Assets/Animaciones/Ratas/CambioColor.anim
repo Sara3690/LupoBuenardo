@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: dayoColor
+  m_Name: CambioColor
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -39,7 +39,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -51,7 +51,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.r
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -76,7 +76,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -88,7 +88,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.g
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -113,7 +113,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -125,7 +125,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.b
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -150,7 +150,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -162,7 +162,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.a
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -179,7 +179,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.083333336
-        value: 0.49999994
+        value: 8
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -187,7 +187,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -199,7 +199,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionColor.r
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -224,7 +224,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -236,7 +236,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionColor.g
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -261,7 +261,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -273,7 +273,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionColor.b
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -298,7 +298,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -310,7 +310,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionColor.a
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -322,56 +322,56 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1717961855
+      path: 1880749976
       attribute: 1571785585
       script: {fileID: 0}
       typeID: 137
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1717961855
+      path: 1880749976
       attribute: 1840221041
       script: {fileID: 0}
       typeID: 137
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1717961855
+      path: 1880749976
       attribute: 1218664834
       script: {fileID: 0}
       typeID: 137
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1717961855
+      path: 1880749976
       attribute: 1303350129
       script: {fileID: 0}
       typeID: 137
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1717961855
+      path: 1880749976
       attribute: 2108656497
       script: {fileID: 0}
       typeID: 137
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1717961855
+      path: 1880749976
       attribute: 1487100290
       script: {fileID: 0}
       typeID: 137
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1717961855
+      path: 1880749976
       attribute: 1755535746
       script: {fileID: 0}
       typeID: 137
       customType: 22
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1717961855
+      path: 1880749976
       attribute: 2023971202
       script: {fileID: 0}
       typeID: 137
@@ -383,7 +383,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.25
+    m_StopTime: 0.16666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -421,7 +421,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -433,7 +433,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.r
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -458,7 +458,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -470,7 +470,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.g
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -495,7 +495,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -507,7 +507,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.b
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -532,7 +532,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -544,7 +544,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.a
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -561,7 +561,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.083333336
-        value: 0.49999994
+        value: 8
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -569,7 +569,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -581,7 +581,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionColor.r
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -606,7 +606,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -618,7 +618,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionColor.g
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -643,7 +643,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -655,7 +655,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionColor.b
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   - curve:
@@ -680,7 +680,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.25
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -692,7 +692,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._EmissionColor.a
-    path: 06pies
+    path: Cubo
     classID: 137
     script: {fileID: 0}
   m_EulerEditorCurves: []

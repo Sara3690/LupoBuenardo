@@ -20,6 +20,8 @@ public class VidaDamageJugador : MonoBehaviour
 
             this.gameObject.SetActive(false);
             botonResucitar.SetActive(true);
+
+            
         }
     }
 
