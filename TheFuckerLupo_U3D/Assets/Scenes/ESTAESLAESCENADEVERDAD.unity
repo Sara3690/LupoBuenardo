@@ -37407,6 +37407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: avion lupo
       objectReference: {fileID: 0}
+    - target: {fileID: 2623438074134420092, guid: cee559b6038c406438876fd97ca87597, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9916124011b24154c991c5fd92977fe7, type: 2}
     - target: {fileID: 5389193911708032381, guid: cee559b6038c406438876fd97ca87597, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.5
