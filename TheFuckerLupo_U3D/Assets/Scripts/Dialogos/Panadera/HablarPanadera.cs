@@ -9,6 +9,7 @@ public class HablarPanadera : MonoBehaviour
     [SerializeField] Button botonAccion;
 
     [SerializeField] Flowchart murmullosPanadera;
+    public Flowchart misionFlores;
 
     public bool activarDialogo = false;
 
@@ -60,6 +61,7 @@ public class HablarPanadera : MonoBehaviour
 
 
                 murmullosPanadera.SetBooleanVariable("LupoEntracion", false);
+                misionFlores.SetBooleanVariable("CargarDialogacion", false);
             }
         //}
         
