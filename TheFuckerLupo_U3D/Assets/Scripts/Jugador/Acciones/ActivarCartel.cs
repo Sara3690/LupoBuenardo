@@ -30,6 +30,8 @@ public class ActivarCartel : MonoBehaviour
                 mainCamera.SetActive(false);
                 camaraCartel.SetActive(true);
                 botonMover.SetActive(false);
+
+                misionRatas.SetBooleanVariable("CargarDialogo", false);
             }
 
             if (cambioVista == 2)
@@ -41,6 +43,7 @@ public class ActivarCartel : MonoBehaviour
                 if (misionRatas.GetBooleanVariable("HarinaConseguida"))
                 {
                     misionAgua.SetBooleanVariable("EmpezarBaile", true);
+                    misionRatas.SetBooleanVariable("CargarDialogo", false);
                 }
 
                 cambioVista = 0;
