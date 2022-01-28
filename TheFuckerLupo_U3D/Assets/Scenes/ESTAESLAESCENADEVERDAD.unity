@@ -13087,7 +13087,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471368438
 GameObject:
@@ -16822,6 +16822,75 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 1429813082000294919, guid: 847e81186dac08c4fb2c6aa4f3b1ff64, type: 3}
   m_PrefabInstance: {fileID: 1526063264952725159}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &705064710
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.669996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.669996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.669996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 93.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 107.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7004427
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.71370864
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -91.075
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
+      propertyPath: m_Name
+      value: ROYAL TUMBA3 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e71979d04efc6aa43b33162cdc4d6e34, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -37497,9 +37566,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2087540018}
     m_Modifications:
+    - target: {fileID: 7557981782084675771, guid: d4301d5596b045546a1c28ddbb0f44bd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8180395128680833094, guid: d4301d5596b045546a1c28ddbb0f44bd, type: 3}
       propertyPath: m_Name
       value: ROYAL TUMBA3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8560094236305026931, guid: d4301d5596b045546a1c28ddbb0f44bd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8848810944339065596, guid: d4301d5596b045546a1c28ddbb0f44bd, type: 3}
       propertyPath: m_RootOrder
@@ -51368,6 +51445,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7154539324460498139, guid: 64d503addf19d884fb3819bc1dfa49de, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bd2705aa983d06d48b1712324e5385c4, type: 2}
     - target: {fileID: 8286952374792619956, guid: 64d503addf19d884fb3819bc1dfa49de, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -52738,7 +52819,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2121685277
 GameObject:
