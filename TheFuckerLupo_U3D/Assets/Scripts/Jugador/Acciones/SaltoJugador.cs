@@ -62,6 +62,7 @@ public class SaltoJugador : MonoBehaviour
     {
         isGrounded = false;
         rbd.AddForce(0, fuerzaSalto, 0);
+        misionFlores.SetBooleanVariable("CargarDialogacion", false);
     }
 
     public void OnCollisionEnter(UnityEngine.Collision other)
