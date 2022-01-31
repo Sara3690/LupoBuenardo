@@ -17,6 +17,7 @@ public class AtaqueJugador : MonoBehaviour
     public Button botonAccion;
 
     public Flowchart misionRatas;
+    public Flowchart misionFlores;
 
     public Text contadorRatas;
 
@@ -84,6 +85,7 @@ public class AtaqueJugador : MonoBehaviour
             Invoke("CancelarAtaque", 1.2f);
 
             misionRatas.SetBooleanVariable("CargarDialogo", false);
+            misionFlores.SetBooleanVariable("CargarDialogacion", false);
         }
 
     }

@@ -15,7 +15,7 @@ public class DetectarFlores : MonoBehaviour
     bool cogerFlor;
 
     public Text cuentaFlores;
-    int cantidadFlores = 0;
+    public int cantidadFlores = 0;
 
     public Flowchart misionFlores;
     [SerializeField] GameObject cactus;

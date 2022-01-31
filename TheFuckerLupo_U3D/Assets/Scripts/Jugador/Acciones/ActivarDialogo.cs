@@ -22,7 +22,7 @@ public class ActivarDialogo : MonoBehaviour
     {
      
      //activar dialogo misionPan.
-     if (murmullos.GetBooleanVariable("LupoEntra"))
+     if (murmullos.GetBooleanVariable("LupoEntra")== true)
         {
          misionPan.SetBooleanVariable("CargarDialogo", true);
          misionFlores.SetBooleanVariable("CargarDialogacion", false);
@@ -31,7 +31,7 @@ public class ActivarDialogo : MonoBehaviour
         }
 
      //activar dialogo MisionFlores.
-     if (murmullosPanadera.GetBooleanVariable("LupoEntracion"))
+     if (murmullosPanadera.GetBooleanVariable("LupoEntracion")== true)
 
         {
             misionFlores.SetBooleanVariable("CargarDialogacion", true);
@@ -40,13 +40,21 @@ public class ActivarDialogo : MonoBehaviour
         }
 
         //activar dialogo MisionRatas.
-        if (murmullosMolinero.GetBooleanVariable("LupoEntra"))
+        if (murmullosMolinero.GetBooleanVariable("LupoEntra")== true)
 
         {
             misionRatas.SetBooleanVariable("CargarDialogo", true);
             misionPan.SetBooleanVariable("CargarDialogo", false);
             misionFlores.SetBooleanVariable("CargarDialogacion", false);
         }
+
+        //activar fin del juego
+        if (misionFlores.GetBooleanVariable("PanConseguido") ==true)
+        {
+            misionFlores.SetBooleanVariable("CargarDialogacion", false);
+            misionPan.SetBooleanVariable("CargarDialogo", true);
+        }
+
 
     }
 
