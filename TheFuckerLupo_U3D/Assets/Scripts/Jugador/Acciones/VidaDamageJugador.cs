@@ -13,6 +13,7 @@ public class VidaDamageJugador : MonoBehaviour
     {
         vida -= cantidad;
         lupoDanyo.SetTrigger("danyo");
+        SoundSystem.instance.PlayDayoLupo();
 
         if (vida == 0)
         {

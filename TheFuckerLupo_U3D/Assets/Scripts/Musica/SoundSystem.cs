@@ -23,6 +23,7 @@ public class SoundSystem : MonoBehaviour
     public AudioClip sonidoBatalla;
     public AudioClip sonidoMuerte;
     public AudioClip sonidoMuerteLupo;
+    public AudioClip sonidoDayoLupo;
 
     private void Awake()
     {
@@ -39,6 +40,12 @@ public class SoundSystem : MonoBehaviour
     public void PlaySalto()
     {
         fuenteEfectoSonido.clip = sonidoSalto;
+        fuenteEfectoSonido.Play();
+    }
+
+    public void PlayDayoLupo()
+    {
+        fuenteEfectoSonido.clip = sonidoDayoLupo;
         fuenteEfectoSonido.Play();
     }
 
