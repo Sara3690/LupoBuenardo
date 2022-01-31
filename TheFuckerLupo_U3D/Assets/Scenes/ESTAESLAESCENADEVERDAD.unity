@@ -57488,6 +57488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinos
       objectReference: {fileID: 0}
+    - target: {fileID: 2689234679130184150, guid: a81ec49687522284aac9e039c5371c88, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2689234679130184151, guid: a81ec49687522284aac9e039c5371c88, type: 3}
       propertyPath: m_RootOrder
       value: 4
