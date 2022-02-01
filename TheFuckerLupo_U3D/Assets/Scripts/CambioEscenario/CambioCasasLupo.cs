@@ -8,7 +8,7 @@ public class CambioCasasLupo : MonoBehaviour
     [SerializeField] GameObject casaInterior;
     [SerializeField] GameObject casaExterior;
 
-    public int cambioZoom;
+    public SigueAlJugador zum;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -16,7 +16,7 @@ public class CambioCasasLupo : MonoBehaviour
         {
             casaInterior.SetActive(true);
             casaExterior.SetActive(false);
-            cambioZoom = 0;
+            zum.zoom = 0;
            
         }
     }
@@ -25,6 +25,6 @@ public class CambioCasasLupo : MonoBehaviour
     {
         casaInterior.SetActive(false);
         casaExterior.SetActive(true);
-        cambioZoom = 1;
+        zum.zoom = 1;
     }
 }

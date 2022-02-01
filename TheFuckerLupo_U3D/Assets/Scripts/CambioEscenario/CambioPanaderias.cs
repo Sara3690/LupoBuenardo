@@ -7,7 +7,7 @@ public class CambioPanaderias : MonoBehaviour
     [SerializeField] GameObject panaderiaInterior;
     [SerializeField] GameObject panaderiaExterior;
 
-    public int cambioZoom;
+    public SigueAlJugador zum;
 
     public GameObject misionFlores;
 
@@ -18,7 +18,7 @@ public class CambioPanaderias : MonoBehaviour
             panaderiaInterior.SetActive(true);
             panaderiaExterior.SetActive(false);
 
-            cambioZoom = 2;
+            zum.zoom = 2;
 
             misionFlores.SetActive(true);
         }
@@ -29,6 +29,6 @@ public class CambioPanaderias : MonoBehaviour
         panaderiaInterior.SetActive(false);
         panaderiaExterior.SetActive(true);
 
-        cambioZoom = 3;
+        zum.zoom = 3;
     }
 }
