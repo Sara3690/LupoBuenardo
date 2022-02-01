@@ -11,7 +11,7 @@ public class CambioMolinos : MonoBehaviour
     [SerializeField ] Flowchart misionRatas;
     public bool puedeEntrar = false;
 
-    public int cambioZoom;
+    public SigueAlJugador zum;
 
     public AtaqueJugador contadorRatas;
 
@@ -21,7 +21,7 @@ public class CambioMolinos : MonoBehaviour
         {
             molinoInterior.SetActive(true);
             molinoExterior.SetActive(false);
-            cambioZoom = 4;
+            zum.zoom = 4;
 
             
         }
@@ -32,7 +32,7 @@ public class CambioMolinos : MonoBehaviour
         molinoInterior.SetActive(false);
         molinoExterior.SetActive(true);
 
-        cambioZoom = 5;
+        zum.zoom = 5;
     }
 
     private void Update()
