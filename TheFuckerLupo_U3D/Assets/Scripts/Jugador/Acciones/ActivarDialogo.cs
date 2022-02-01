@@ -49,7 +49,7 @@ public class ActivarDialogo : MonoBehaviour
         }
 
         //activar fin del juego
-        if (misionFlores.GetBooleanVariable("PanConseguido") ==true)
+        if (misionFlores.GetBooleanVariable("PanConseguido") ==true && murmullos.GetBooleanVariable("LupoEntra") ==true)
         {
             misionFlores.SetBooleanVariable("CargarDialogacion", false);
             misionPan.SetBooleanVariable("CargarDialogo", true);

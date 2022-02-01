@@ -14,6 +14,7 @@ public class SaltoJugador : MonoBehaviour
     [SerializeField] Flowchart misionFlores;
     [SerializeField] Flowchart misionRatas;
     public Flowchart murmullosPanadero;
+    public Flowchart murmullosMadre;
 
 
     public float fuerzaSalto;
@@ -23,6 +24,8 @@ public class SaltoJugador : MonoBehaviour
     public Animator saltoLupo;
 
     public MovimientoJugador moverLupo;
+
+    public HablarMamaLupo hablarMama;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +52,9 @@ public class SaltoJugador : MonoBehaviour
 
             saltoLupo.SetBool("noCaida", true);
 
+            hablarMama.activarDialogo = false;
+            murmullosMadre.SetBooleanVariable("LupoEntra", false);
+
           
         }
        
@@ -65,6 +71,8 @@ public class SaltoJugador : MonoBehaviour
         rbd.AddForce(0, fuerzaSalto, 0);
         misionFlores.SetBooleanVariable("CargarDialogacion", false);
         murmullosPanadero.SetBooleanVariable("LupoEntracion", false);
+        hablarMama.activarDialogo = false;
+        murmullosMadre.SetBooleanVariable("LupoEntra", false);
     }
 
     public void OnCollisionEnter(UnityEngine.Collision other)
