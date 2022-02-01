@@ -13,6 +13,7 @@ public class SaltoJugador : MonoBehaviour
     [SerializeField] Flowchart misionPan;
     [SerializeField] Flowchart misionFlores;
     [SerializeField] Flowchart misionRatas;
+    public Flowchart murmullosPanadero;
 
 
     public float fuerzaSalto;
@@ -63,6 +64,7 @@ public class SaltoJugador : MonoBehaviour
         isGrounded = false;
         rbd.AddForce(0, fuerzaSalto, 0);
         misionFlores.SetBooleanVariable("CargarDialogacion", false);
+        murmullosPanadero.SetBooleanVariable("LupoEntracion", false);
     }
 
     public void OnCollisionEnter(UnityEngine.Collision other)

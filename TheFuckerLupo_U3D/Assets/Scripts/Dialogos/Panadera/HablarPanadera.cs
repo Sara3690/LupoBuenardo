@@ -54,15 +54,10 @@ public class HablarPanadera : MonoBehaviour
         //if (other.gameObject.CompareTag("Player"))
         //{
             activarDialogo = false;
-
-            if (activarDialogo == false)
-            {
                 botonAccion.image.sprite = Resources.Load<Sprite>("BotonOriginal");
-
-
                 murmullosPanadera.SetBooleanVariable("LupoEntracion", false);
                 misionFlores.SetBooleanVariable("CargarDialogacion", false);
-            }
+            
         //}
         
      
