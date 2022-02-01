@@ -17602,6 +17602,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8900001, y: 1.7028627, z: 1.8889556}
   m_Center: {x: -0.000008761883, y: -0.07127634, z: -0.10410796}
+--- !u!1 &662836301 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2614387327462602141, guid: 936f47daab1287a46aa1370798448bba, type: 3}
+  m_PrefabInstance: {fileID: 743462494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &662836302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662836301}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0976763, y: 2.8367865, z: 2.0000005}
+  m_Center: {x: -0.048837073, y: 0.4183933, z: 0.0000014305115}
 --- !u!1 &663983460
 GameObject:
   m_ObjectHideFlags: 0
@@ -19484,7 +19502,10 @@ MonoBehaviour:
   nameText: Lupo
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: e42a4f56a70293a4ebc83b88e4dec336, type: 3}
+  - {fileID: 21300000, guid: e387d3ce6cdb3ce4fb5eb896d90b9271, type: 3}
+  - {fileID: 21300000, guid: 60d30c0f36ba3f449b93c9007fba5004, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -31668,9 +31689,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1271787082}
+  - {fileID: 1271787141}
   selectedCommands:
-  - {fileID: 1271787135}
+  - {fileID: 1271787169}
   variables:
   - {fileID: 1271787081}
   - {fileID: 1271787095}
@@ -35428,7 +35449,7 @@ MonoBehaviour:
   storyText: Quisiera pan, por favor.
   description: 
   character: {fileID: 803244174}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e387d3ce6cdb3ce4fb5eb896d90b9271, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -35452,7 +35473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 436.1756
+    x: 434.45145
     y: 93.330215
     width: 72.413795
     height: 40
@@ -47504,8 +47525,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1656382309}
-  selectedCommands: []
+  - {fileID: 1656382318}
+  selectedCommands:
+  - {fileID: 1656382316}
   variables: []
   description: 
   stepPause: 0
@@ -47689,7 +47711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 245
+    x: 244
     y: 86
     width: 111
     height: 40
@@ -55753,7 +55775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 819813456}
+  selectedFlowchart: {fileID: 1271787083}
 --- !u!4 &2121171394
 Transform:
   m_ObjectHideFlags: 1
