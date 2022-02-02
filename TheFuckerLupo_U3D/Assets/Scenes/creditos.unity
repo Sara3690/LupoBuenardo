@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -312,9 +312,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "EQUIPO LUPOLAND:\n\nPROGRAMACI\xD3N \nSARA\n\nDISE\xD1O DE PERSONAJES
-    \nSANTIAGO\n\nDISE\xD1O Y MODELADO \nDIEGO     PABLO\n\nANIMACI\xD3N\nSARA  PABLO
-    \n\nSONIDO\nPABLO\n\nCOLABORACI\xD3N ESPECIAL:\nMARIO\nFRAN\n\n"
+  m_Text: "EQUIPO LUPOLAND:\n\nPROGRAMACI\xD3N \nSARA PEREZ\n\nDISE\xD1O DE PERSONAJES
+    \nSANTIAGO ROSILLO\n\nDISE\xD1O Y MODELADO \nDIEGO GARCIA - PABLO CEREZO\n\nANIMACI\xD3N\nSARA
+    PEREZ - PABLO CEREZO\n\nSONIDO\nPABLO CEREZO\n\nCOLABORACI\xD3N ESPECIAL:\nMARIO
+    DEL BARRIO\nFRAN ESCUDERO\n\n"
 --- !u!222 &1018034796
 CanvasRenderer:
   m_ObjectHideFlags: 0
