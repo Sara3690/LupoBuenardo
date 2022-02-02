@@ -37928,9 +37928,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1271787125}
+  - {fileID: 1271787154}
   selectedCommands:
-  - {fileID: 1271787182}
+  - {fileID: 1271787151}
   variables:
   - {fileID: 1271787081}
   - {fileID: 1271787095}
@@ -41975,7 +41975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: "Cons\xEDgueme las 99 flores que necesito. Eso me devolver\xE1 lla alegr\xEDa
+  storyText: "Cons\xEDgueme las 99 flores que necesito. Eso me devolver\xE1 la alegr\xEDa
     de vivir."
   description: 
   character: {fileID: 132225887}
@@ -49164,17 +49164,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8900001, y: 1.702863, z: 1.8889561}
   m_Center: {x: -0.000020205975, y: -0.07127587, z: -0.10409463}
---- !u!114 &1547540801 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2473373227043975445, guid: f90da4dadb784b84e9e9265293a4b111, type: 3}
-  m_PrefabInstance: {fileID: 2473373225691766347}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1552394118
 GameObject:
   m_ObjectHideFlags: 0
@@ -58357,7 +58346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7753549, y: 0.2574224}
   m_AnchorMax: {x: 1, y: 0.41830125}
-  m_AnchoredPosition: {x: -21.120804, y: 0.69999313}
+  m_AnchoredPosition: {x: -21.120804, y: 0.69999695}
   m_SizeDelta: {x: 9.4819, y: 1.176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1748963891
@@ -66264,7 +66253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1547540801}
+  selectedFlowchart: {fileID: 1271787083}
 --- !u!4 &2121171394
 Transform:
   m_ObjectHideFlags: 1
